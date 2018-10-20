@@ -27,7 +27,7 @@ public class readfile1 {
 
     public static void main(String[] args) throws Exception {
 
-        File file = new File("C:\\Users\\Vitalie\\IdeaProjects\\project-1\\src\\com\\vitalik\\file.txt");
+        File file = new File();
         BufferedReader br = new BufferedReader(new FileReader(file));
         String st;
         while ((st = br.readLine()) != null) {
