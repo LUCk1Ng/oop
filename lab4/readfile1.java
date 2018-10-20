@@ -27,7 +27,7 @@ public class readfile1 {
 
     public static void main(String[] args) throws Exception {
 
-        File file = new File();
+        File file = new File(/Users/maverick/IdeaProjects/lab4/src/lab4/lab4readfile.java);
         BufferedReader br = new BufferedReader(new FileReader(file));
         String st;
         while ((st = br.readLine()) != null) {
